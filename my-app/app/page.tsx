@@ -1,8 +1,7 @@
 'use client';
 
 import { useState } from "react";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+
 import SearchField from "./components/SearchField";
 
 import SearchBar from "./components/SearchBar";
@@ -65,13 +64,13 @@ export default function Home() {
   }
 
   return (
-    <main className="">
+    <main className=" border-2 border-black">
       <div className="">
         <div className="">
           <div className="flex justify-center items-center py-6">
             <SearchBar />
           </div>
-          <div className="flex flex-col items-center space-y-14">
+          <div className="flex flex-col items-center space-y-14 mb-10">
             {
               data?.data.map((card) => {
                 return <Card
