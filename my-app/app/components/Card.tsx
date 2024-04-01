@@ -13,7 +13,7 @@ const Card = ({ photo, institutionName, phoneNumbers, status, address }) => {
     
     
     return (
-    <div className="w-[1000px] h-[200px] rounded-3xl mb-[50px] shadow-3xl">
+    <div className="w-[1000px] h-[200px] rounded-3xl mb-[20px] shadow-3xl border-[0.5px] border-black">
         <div className="grid grid-cols-5 rounded-md shadow-inner">
             <div className="col-span-1">
                 {/* <Image src={photo} alt="photo" width={20} height={20}/> */}
