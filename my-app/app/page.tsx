@@ -67,7 +67,6 @@ export default function Home() {
   return (
     <main className="">
       <div className="">
-        <Navbar />
         <div className="">
           <div className="flex justify-center items-center py-6">
             <SearchBar />
@@ -87,7 +86,6 @@ export default function Home() {
             }
           </div>
         </div>
-        <Footer />
       </div>
     </main>
   );
