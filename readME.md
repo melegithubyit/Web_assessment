@@ -1,1 +1,1 @@
-this is a read me file for web assessment
+The web assessment test is inside the myfile folder.
