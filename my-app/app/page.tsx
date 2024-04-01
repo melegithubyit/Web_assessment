@@ -56,7 +56,7 @@ export default function Home() {
   });
 
   if (isLoading || isFetching) {
-    return <div>Loading...</div>;
+    return <div className="min-h-screen">Loading...</div>;
   }
 
   if (isError) {
@@ -64,7 +64,7 @@ export default function Home() {
   }
 
   return (
-    <main className=" border-2 border-black">
+    <main className="">
       <div className="">
         <div className="">
           <div className="flex justify-center items-center py-6">
